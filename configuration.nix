@@ -48,25 +48,25 @@
   environment.systemPackages = with pkgs; [
     #all-cabal-hashes
     #bind
-    cabal2nix
-    cabal-install
+    #cabal2nix
+    #cabal-install
     #codeblocks
     #codeblocksFull
-    dhcp
-    dnsutils
+    #dhcp
+    #dnsutils
     #emacs
-    file
-    finger_bsd
-    firefox-bin
+    #file
+    #finger_bsd
+    #firefox-bin
     #firmwareLinuxNonfree
-    fuse3
-    gcc
-    gdb
-    ghc
-    gimp
+    #fuse3
+    #gcc
+    #gdb
+    #ghc
+    #gimp
     #gitAndTools.gitFull
-    gnumake
-    haskellPackages.threepenny-gui
+    #gnumake
+    #haskellPackages.threepenny-gui
     #haskellPackages.threepenny-gui-contextmenu
     haskellPackages.threepenny-gui-flexbox
     #haskellPackages.happy
@@ -94,33 +94,33 @@
     #  sha256 = "0wh7gx3gqjbvj15zs5n9v033zd33zl466w787pyfrzzz16jaxy8k";
     #  fetchSubmodules = true;
     #}) {})
-    ipad_charge
-    iw
-    kodi
-    libreoffice
+    #ipad_charge
+    #iw
+    #kodi
+    #libreoffice
     #linuxPackages.ndiswrapper
-    lshw
+    #lshw
     #ndjbdns
     #nix-prefetch-git
-    nox
-    oraclejdk8
+    #nox
+    #oraclejdk8
     #patchelf
-    pmutils
-    pciutils
-    python35
-    R
+    #pmutils
+    #pciutils
+    #python35
+    #R
     #speedtest-cli
-    tcpdump
-    transmission_gtk
-    tree
-    unetbootin
-    usbutils
-    virtualbox
-    vlc
-    wayland
-    wirelesstools
-    zeroad
-    zuki-themes
+    #tcpdump
+    #transmission_gtk
+    #tree
+    #unetbootin
+    #usbutils
+    #virtualbox
+    #vlc
+    #wayland
+    #wirelesstools
+    #zeroad
+    #zuki-themes
    ];
 
   programs.man.enable = true;
